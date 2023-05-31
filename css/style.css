@@ -1,18 +1,9 @@
-.container {
-  max-width: 1200px; /* Adjust the value to fit your design */
-  margin: 0 auto; /* Center the container horizontally */
+.container1 {
+	margin-left: auto;
+	margin-right: auto;
 }
-
-.section {
-  padding: 40px; /* Increase the padding to add more space */
-}
-
-.column {
-  width: 33.33%; /* Adjust the width of columns for a multi-column layout */
-}
-
-@media only screen and (min-width: 1200px) {
-  .container {
-    max-width: 1400px; /* Adjust the value based on your design needs */
-  }
+.container2 {
+	display:flex;
+	margin-left: auto;
+	margin-right:auto;
 }
