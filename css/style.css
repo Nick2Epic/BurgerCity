@@ -1,4 +1,79 @@
-@images screen and (max-width: 600px)
-  {
+/* Apply responsive styles for smaller screens */
+@media only screen and (max-width: 768px) {
+  /* Adjust font sizes, margins, and padding for smaller screens */
+  body {
+    font-size: 14px;
+    margin: 10px;
+  }
+  
+  /* Make the header and logo smaller */
+  .header {
+    padding: 10px;
+  }
+  
+  .logo {
+    max-width: 150px;
+  }
+  
+  /* Adjust the layout of sections or elements */
+  .section {
+    padding: 20px;
+  }
+  
+  .column {
+    width: 100%;
+  }
+  
+  /* Make the navigation menu responsive */
+  .menu {
+    display: none;
+  }
+  
+  .hamburger-menu {
+    display: block;
+  }
+  
+  .hamburger-menu ul {
+    display: none;
+  }
+  
+  .hamburger-menu.open ul {
+    display: block;
+  }
+}
 
+/* Apply responsive styles for larger screens */
+@media only screen and (min-width: 769px) {
+  /* Adjust font sizes, margins, and padding for larger screens */
+  body {
+    font-size: 16px;
+    margin: 20px;
+  }
+  
+  /* Make the header and logo larger */
+  .header {
+    padding: 20px;
+  }
+  
+  .logo {
+    max-width: 200px;
+  }
+  
+  /* Adjust the layout of sections or elements */
+  .section {
+    padding: 40px;
+  }
+  
+  .column {
+    width: 50%;
+  }
+  
+  /* Make the navigation menu visible */
+  .menu {
+    display: block;
+  }
+  
+  .hamburger-menu {
+    display: none;
+  }
 }
