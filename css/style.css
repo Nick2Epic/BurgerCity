@@ -1,79 +1,18 @@
-/* Apply responsive styles for smaller screens */
-@media only screen and (max-width: 768px) {
-  /* Adjust font sizes, margins, and padding for smaller screens */
-  body {
-    font-size: 14px;
-    margin: 10px;
-  }
-  
-  /* Make the header and logo smaller */
-  .header {
-    padding: 10px;
-  }
-  
-  .logo {
-    max-width: 150px;
-  }
-  
-  /* Adjust the layout of sections or elements */
-  .section {
-    padding: 20px;
-  }
-  
-  .column {
-    width: 100%;
-  }
-  
-  /* Make the navigation menu responsive */
-  .menu {
-    display: none;
-  }
-  
-  .hamburger-menu {
-    display: block;
-  }
-  
-  .hamburger-menu ul {
-    display: none;
-  }
-  
-  .hamburger-menu.open ul {
-    display: block;
-  }
+.container {
+  max-width: 1200px; /* Adjust the value to fit your design */
+  margin: 0 auto; /* Center the container horizontally */
 }
 
-/* Apply responsive styles for larger screens */
-@media only screen and (min-width: 769px) {
-  /* Adjust font sizes, margins, and padding for larger screens */
-  body {
-    font-size: 16px;
-    margin: 20px;
-  }
-  
-  /* Make the header and logo larger */
-  .header {
-    padding: 20px;
-  }
-  
-  .logo {
-    max-width: 200px;
-  }
-  
-  /* Adjust the layout of sections or elements */
-  .section {
-    padding: 40px;
-  }
-  
-  .column {
-    width: 50%;
-  }
-  
-  /* Make the navigation menu visible */
-  .menu {
-    display: block;
-  }
-  
-  .hamburger-menu {
-    display: none;
+.section {
+  padding: 40px; /* Increase the padding to add more space */
+}
+
+.column {
+  width: 33.33%; /* Adjust the width of columns for a multi-column layout */
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1400px; /* Adjust the value based on your design needs */
   }
 }
